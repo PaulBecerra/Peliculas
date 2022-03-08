@@ -61,7 +61,7 @@ class HomeFragment : Fragment() {
         val movie4 = Movie(4,  getString(R.string.movie4), getString(R.string.movie4_desc), 110, R.drawable.queenpins)
         val movie5 = Movie(5,  getString(R.string.movie5), getString(R.string.movie5_desc), 90, R.drawable.quienesquien)
         val movie6 = Movie(6,  getString(R.string.movie6), getString(R.string.movie6_desc), 75, R.drawable.unbuclesinfin)
-        movies.addAll(listOf(movie1, movie2,movie3, movie4, movie5, movie6))
+        movies.addAll(listOf(movie2,movie3, movie4, movie5, movie6, movie1))
 
     }
 }

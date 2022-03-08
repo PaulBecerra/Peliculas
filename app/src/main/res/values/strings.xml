@@ -14,6 +14,22 @@
     <string name="movie4_desc">La aburrida y frustrada ama de casa de los suburbios Connie y su mejor amigo JoJo, un vlogger con sueños, convierten un pasatiempo en una trampa de cupones falsos de varios millones de dólares. Después de enviar una carta al conglomerado detrás de una caja de cereal rancia y recibir una disculpa junto con docenas de obsequios, el dúo trama un esquema de club de cupones ilegal que estafa a millones de megacorporaciones y entrega ofertas a legiones de compañeros recortadores de cupones.</string>
     <string name="movie5_desc">Una mañana, los Morel se despiertan con un gran problema. ¡Descubren que sus mentes se han intercambiado y que cada uno de ellos está atrapado en el cuerpo de otro miembro de la familia! Chacha, de 6 años, está en el cuerpo del padre, el padre en el cuerpo de su hijo adolescente, el hijo en el cuerpo de la hermana mayor, la hermana mayor en el cuerpo de la madre y la madre en el cuerpo de Chacha… ¿Te has perdido? Ellos también. Y esto es solo el principio.</string>
     <string name="movie6_desc">Cuando su novio pierde el dinero de un mafioso, Savi corre para salvar la situación. Pero solo tendrá éxito si logra de una extraña serie de acontecimientos.</string>
+
+    <string name="serie1">Los Guardianes de la Justicia</string>
+    <string name="serie1_desc">Después de mantener la tierra en paz durante 40 años, el superhéroe alienígena Marvelous Man deja una misión en manos de su amargado y violento teniente Knight Hawk y del idealista The Speed para detener la guerra nuclear</string>
+    <string name="serie2">Space Force</string>
+    <string name="serie2_desc">Cuenta la historia de un grupo de soldados a los que se les encarga la creación de una rama especial del ejército llamada “The Space Force”.</string>
+    <string name="serie3">Desencanto (Disenchantment)</string>
+    <string name="serie3_desc">Nueva serie de animación de Matt Groening, ahora ambientada en la Edad Media y que narra las desventuras de una princesa aficionada a la bebida, su enérgico acompañante elfo y su demonio particular.</string>
+    <string name="serie4">And Just Like That</string>
+    <string name="serie4_desc">Secuela de "Sex and the City" en formato miniserie. Sin el personaje de Samantha (Kim Cattrall), la serie seguirá a Carrie, Miranda y Charlotte mientras navegan por el viaje desde la complicada realidad de la vida y la amistad a los 30 hasta la realidad aún más complicada de la vida y la amistad a los 50.</string>
+    <string name="serie5">My Dress Up Darling</string>
+    <string name="serie5_desc">Traumatizado por un incidente en su infancia por su amor por las muñecas tradicionales japonesas, el futuro artesano de muñecas Wakana Gojō pasa sus días en solitud, tanto en su casa como en el instituto. Para Wakana, gente como la bella y popular Marin Kitagawa son de otro mundo. </string>
+    <string name="serie6">Pam &amp; Tommy</string>
+    <string name="serie6_desc">Ambientada en los primeros días del Lejano Oeste de Internet, “Pam &amp; Tommy” se basa en la increíble historia real del video sexual de Pamela Anderson y Tommy Lee. Robado de la casa de la pareja por un contratista descontento, el video pasó de ser una curiosidad clandestina de VHS de contrabando a una verdadera sensación mundial cuando llegó a la Web en 1997.</string>
+
+    <!-- Como los favoritos son de series y peliculas ya hechas, no vi la necesidad de agregarlos !-->
+
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
