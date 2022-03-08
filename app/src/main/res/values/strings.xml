@@ -30,7 +30,7 @@
 
     <!-- Como los favoritos son de series y peliculas ya hechas, no vi la necesidad de agregarlos !-->
 
-    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_navigation">Películas</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Paul Becerra</string>
