@@ -1,11 +1,10 @@
-package becerra.paul.peliculas.ui.home
+package becerra.paul.peliculas.ui.movies
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import becerra.paul.peliculas.Movie
@@ -13,7 +12,7 @@ import becerra.paul.peliculas.MovieAdapter
 import becerra.paul.peliculas.R
 import becerra.paul.peliculas.databinding.FragmentMoviesBinding
 
-class HomeFragment : Fragment() {
+class MoviesFragment : Fragment() {
     var movies: ArrayList<Movie> = ArrayList()
     private var _binding: FragmentMoviesBinding? = null
 
@@ -27,7 +26,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+            ViewModelProvider(this).get(MoviesViewModel::class.java)
 
         _binding = FragmentMoviesBinding.inflate(inflater, container, false)
         val root: View = binding.root
