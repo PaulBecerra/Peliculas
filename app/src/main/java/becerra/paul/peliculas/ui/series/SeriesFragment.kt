@@ -1,11 +1,10 @@
-package becerra.paul.peliculas.ui.gallery
+package becerra.paul.peliculas.ui.series
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import becerra.paul.peliculas.Movie
@@ -13,7 +12,7 @@ import becerra.paul.peliculas.MovieAdapter
 import becerra.paul.peliculas.R
 import becerra.paul.peliculas.databinding.FragmentSeriesBinding
 
-class GalleryFragment : Fragment() {
+class SeriesFragment : Fragment() {
     var series: ArrayList<Movie> = ArrayList()
     private var _binding: FragmentSeriesBinding? = null
 
@@ -27,7 +26,7 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val galleryViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
+            ViewModelProvider(this).get(SeriesViewModel::class.java)
 
         _binding = FragmentSeriesBinding.inflate(inflater, container, false)
         val root: View = binding.root

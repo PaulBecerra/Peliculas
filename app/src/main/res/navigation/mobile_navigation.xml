@@ -9,17 +9,17 @@
         android:id="@+id/nav_home"
         android:name="becerra.paul.peliculas.ui.home.HomeFragment"
         android:label="@string/menu_movies"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_movies" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="becerra.paul.peliculas.ui.gallery.GalleryFragment"
+        android:name="becerra.paul.peliculas.ui.series.SeriesFragment"
         android:label="@string/menu_series"
         tools:layout="@layout/fragment_series" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="becerra.paul.peliculas.ui.slideshow.SlideshowFragment"
+        android:name="becerra.paul.peliculas.ui.favorites.FavoritesFragment"
         android:label="@string/menu_favorites"
         tools:layout="@layout/fragment_favorites" />
 </navigation>

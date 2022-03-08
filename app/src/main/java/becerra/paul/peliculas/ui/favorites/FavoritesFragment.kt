@@ -1,11 +1,10 @@
-package becerra.paul.peliculas.ui.slideshow
+package becerra.paul.peliculas.ui.favorites
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import becerra.paul.peliculas.Movie
@@ -13,7 +12,7 @@ import becerra.paul.peliculas.MovieAdapter
 import becerra.paul.peliculas.R
 import becerra.paul.peliculas.databinding.FragmentFavoritesBinding
 
-class SlideshowFragment : Fragment() {
+class FavoritesFragment : Fragment() {
     var favs: ArrayList<Movie> = ArrayList()
     private var _binding: FragmentFavoritesBinding? = null
 
@@ -27,7 +26,7 @@ class SlideshowFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+            ViewModelProvider(this).get(FavoritesViewModel::class.java)
 
         _binding = FragmentFavoritesBinding.inflate(inflater, container, false)
         val root: View = binding.root

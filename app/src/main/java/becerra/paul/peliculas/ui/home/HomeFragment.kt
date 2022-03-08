@@ -11,11 +11,11 @@ import androidx.lifecycle.ViewModelProvider
 import becerra.paul.peliculas.Movie
 import becerra.paul.peliculas.MovieAdapter
 import becerra.paul.peliculas.R
-import becerra.paul.peliculas.databinding.FragmentHomeBinding
+import becerra.paul.peliculas.databinding.FragmentMoviesBinding
 
 class HomeFragment : Fragment() {
     var movies: ArrayList<Movie> = ArrayList()
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentMoviesBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -29,7 +29,7 @@ class HomeFragment : Fragment() {
         val homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentMoviesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         /**
