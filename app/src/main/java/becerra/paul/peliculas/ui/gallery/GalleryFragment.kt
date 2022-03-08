@@ -11,11 +11,11 @@ import androidx.lifecycle.ViewModelProvider
 import becerra.paul.peliculas.Movie
 import becerra.paul.peliculas.MovieAdapter
 import becerra.paul.peliculas.R
-import becerra.paul.peliculas.databinding.FragmentGalleryBinding
+import becerra.paul.peliculas.databinding.FragmentSeriesBinding
 
 class GalleryFragment : Fragment() {
     var series: ArrayList<Movie> = ArrayList()
-    private var _binding: FragmentGalleryBinding? = null
+    private var _binding: FragmentSeriesBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -29,7 +29,7 @@ class GalleryFragment : Fragment() {
         val galleryViewModel =
             ViewModelProvider(this).get(GalleryViewModel::class.java)
 
-        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+        _binding = FragmentSeriesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         /**

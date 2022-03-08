@@ -15,11 +15,11 @@
         android:id="@+id/nav_gallery"
         android:name="becerra.paul.peliculas.ui.gallery.GalleryFragment"
         android:label="@string/menu_series"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_series" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="becerra.paul.peliculas.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_favorites"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_favorites" />
 </navigation>

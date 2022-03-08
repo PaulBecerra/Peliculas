@@ -11,11 +11,11 @@ import androidx.lifecycle.ViewModelProvider
 import becerra.paul.peliculas.Movie
 import becerra.paul.peliculas.MovieAdapter
 import becerra.paul.peliculas.R
-import becerra.paul.peliculas.databinding.FragmentSlideshowBinding
+import becerra.paul.peliculas.databinding.FragmentFavoritesBinding
 
 class SlideshowFragment : Fragment() {
     var favs: ArrayList<Movie> = ArrayList()
-    private var _binding: FragmentSlideshowBinding? = null
+    private var _binding: FragmentFavoritesBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -29,7 +29,7 @@ class SlideshowFragment : Fragment() {
         val slideshowViewModel =
             ViewModelProvider(this).get(SlideshowViewModel::class.java)
 
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FragmentFavoritesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         /**
