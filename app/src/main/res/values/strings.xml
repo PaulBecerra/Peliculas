@@ -14,4 +14,15 @@
     <string name="movie4_desc">La aburrida y frustrada ama de casa de los suburbios Connie y su mejor amigo JoJo, un vlogger con sueños, convierten un pasatiempo en una trampa de cupones falsos de varios millones de dólares. Después de enviar una carta al conglomerado detrás de una caja de cereal rancia y recibir una disculpa junto con docenas de obsequios, el dúo trama un esquema de club de cupones ilegal que estafa a millones de megacorporaciones y entrega ofertas a legiones de compañeros recortadores de cupones.</string>
     <string name="movie5_desc">Una mañana, los Morel se despiertan con un gran problema. ¡Descubren que sus mentes se han intercambiado y que cada uno de ellos está atrapado en el cuerpo de otro miembro de la familia! Chacha, de 6 años, está en el cuerpo del padre, el padre en el cuerpo de su hijo adolescente, el hijo en el cuerpo de la hermana mayor, la hermana mayor en el cuerpo de la madre y la madre en el cuerpo de Chacha… ¿Te has perdido? Ellos también. Y esto es solo el principio.</string>
     <string name="movie6_desc">Cuando su novio pierde el dinero de un mafioso, Savi corre para salvar la situación. Pero solo tendrá éxito si logra de una extraña serie de acontecimientos.</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_movies">Películas</string>
+    <string name="menu_series">Series</string>
+    <string name="menu_favorites">Favoritos</string>
 </resources>
