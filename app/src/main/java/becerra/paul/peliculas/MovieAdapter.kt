@@ -1,6 +1,7 @@
 package becerra.paul.peliculas
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -57,6 +58,17 @@ class MovieAdapter: BaseAdapter {
         imageView.setImageResource(movie.image)
         textViewMovieName.setText(movie.name)
         textViewMovieDuration.setText("${movie.duration} min")
+
+        view.setOnClickListener{
+            val intent: Intent = Intent(context, MovieActivity::class.java)
+
+            intent.putExtra("name", movie.name)
+            intent.putExtra("synopsis", movie.synopsis)
+            intent.putExtra("image", movie.image)
+
+            context.startActivity(intent)
+
+        }
 
         return view
 
