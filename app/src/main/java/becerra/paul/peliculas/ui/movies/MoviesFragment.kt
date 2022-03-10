@@ -37,6 +37,8 @@ class MoviesFragment : Fragment() {
             textView.text = it
         }*/
 
+        movies.clear()
+
         addMockMovies()
 
         var adapter = MovieAdapter(root.context, movies)
